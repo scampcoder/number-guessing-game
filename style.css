@@ -74,3 +74,10 @@ button {
   color: #fff;
   font-size: 25px;
 }
+
+h1 {
+  background-color: #7b3056;
+  color: #fff;
+  padding-left: 130px;
+  width: 650px;
+}
