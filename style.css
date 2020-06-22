@@ -3,10 +3,11 @@ html {
 }
 
 body {
+  text-align: center;
   width: 50%;
   max-width: 800px;
   min-width: 480px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .lastResult {
@@ -28,7 +29,6 @@ button {
   font-size: 30px;
   border-style: none;
   margin-top: 50px;
-  margin-left: 75px;
 }
 
 #subt {
@@ -40,7 +40,6 @@ button {
   font-size: 30px;
   border-style: none;
   margin-top: 50px;
-  margin-left: 75px;
 }
 
 #guessField {
@@ -51,14 +50,12 @@ button {
   border-style: none;
   margin-top: 25px;
   font-size: 45px;
-  margin-left: 50px;
   border: 5px solid #14727d;
   text-align: center;
 }
 
 #guess {
   font-size: 55px;
-  margin-left: 90px;
   margin-top: 120px;
   color: #fff;
 }
@@ -73,13 +70,15 @@ button {
   background-color: #12aab4;
   color: #fff;
   font-size: 25px;
+  margin: auto;
 }
 
 h1 {
   background-color: #7b3056;
   color: #fff;
-  padding-left: 130px;
   width: 650px;
+  margin: auto;
+  margin-top: 20px;
 }
 
 p {
