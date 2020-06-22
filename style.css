@@ -62,3 +62,7 @@ button {
   margin-top: 120px;
   color: #fff;
 }
+
+.guesses {
+  border-color: #12aab4;
+}
