@@ -66,3 +66,11 @@ button {
 .guesses {
   border-color: #12aab4;
 }
+
+#wrapper {
+  width: 750px;
+  height: 550px;
+  background-color: #12aab4;
+  color: #fff;
+  font-size: 25px;
+}
