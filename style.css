@@ -81,3 +81,8 @@ h1 {
   padding-left: 130px;
   width: 650px;
 }
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
