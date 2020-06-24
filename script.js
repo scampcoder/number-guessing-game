@@ -52,3 +52,23 @@ function setGameOver() {
   document.body.appendChild(resetButton);
   resetButton.addEventListener('click', resetGame); /*listen for click on reset button to run resetGame*/
 }
+
+function resetGame() {
+  guessCount = 1; /*reset guessCount*/
+
+  let resetParas = document.querySelectorAll('.resultParas p'); /*grab resultparas p elements*/
+  for(let i = 0; i < resetParas.length; i++) {
+    resetParas[i].textContent = ''; /*clear each p element*/
+  }
+  resetButton.parentNode.removeChild(resetButton); /*remove previously created reset button*/
+
+  guessField.disabled = false; /*re-enable guess input and submit btn*/
+  guessSubmit.disabled = false;
+  guessField.value = ''; /*clear input field*/
+  guessField.focus(); /*run focus method on input field*/
+
+  lastResult.style.backgroundColor = '#12aab4';
+  guesses.style.backgroundColor = '#12aab4';
+
+  randomNumber = Math.floor(Math.random() * 500) + 1; /*new guess*/
+}
