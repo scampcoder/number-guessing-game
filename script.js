@@ -43,3 +43,12 @@ function checkGuess() {
 }
 
 guessSubmit.addEventListener('click', checkGuess); /*listen for click event on Submit to run checkGuess*/
+
+function setGameOver() {
+  guessField.disabled = true; /*disable user input and submit*/
+  guessSubmit.disabled = true;
+  resetButton = document.createElement('button'); /*create reset button at game over*/
+  resetButton.textContent = "Start New Game";
+  document.body.appendChild(resetButton);
+  resetButton.addEventListener('click', resetGame); /*listen for click on reset button to run resetGame*/
+}
