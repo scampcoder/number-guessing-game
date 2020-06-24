@@ -41,3 +41,5 @@ function checkGuess() {
   guessField.value = ''; /*clear input field*/
   guessField.focus(); /*run focus method on input field*/
 }
+
+guessSubmit.addEventListener('click', checkGuess); /*listen for click event on Submit to run checkGuess*/
